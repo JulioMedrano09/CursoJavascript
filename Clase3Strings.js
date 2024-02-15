@@ -90,3 +90,23 @@ console.log(saludoSinEspaciar)
 const saludoOrigin = 'Hola mundo'
 const nuevoSaludo = saludoOrigin.replace('mundo', 'Julio')
 console.log(nuevoSaludo)
+
+
+//Presentacion
+
+const username = 'ripper009'
+const fullname = 'Julio Medrano'
+const age = 35
+const isStudent = true
+
+const address = { street: 'Calle martin cardenas ', city: 'Cochabamba', state: 'Cochabamba' }
+
+const hobies = ['coding', 'reading', 'gaming']
+
+//Generando perfil
+const perfil = `Hi, i'm  ${fullname}.
+I'm ${age} years old.
+I live in ${address.city}.
+My hobbies are ${hobies.join(', ')}.`
+
+console.log(perfil)
