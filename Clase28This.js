@@ -87,4 +87,5 @@ function signIn(username, password) {
         alert("Error, usuario o contraseña incorrecta");
     }
 }
-//usuaruiExistente(username, password);
+
+signIn(username, password);
